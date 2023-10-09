@@ -1,5 +1,5 @@
 <?php
-  include("db.php");
+  include("conexion_db.php");
   $USUARIO= $_POST['usuario'];
   $PASSWORD= $_POST['password'];
   $consulta= "SELECT* FROM personal where usuario='$USUARIO' and password='$PASSWORD'";
